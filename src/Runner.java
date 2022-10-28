@@ -1,30 +1,36 @@
+import java.util.Scanner;
+
 public class Runner {
     public static void main(String []args){
-        BooleanGames game1 = new BooleanGames(-435);
-        System.out.println(game1.isNegative());
-        System.out.println("----");
-        System.out.println(game1.exceeds(-600));
-        System.out.println(game1.exceeds(-500));
-        System.out.println(game1.exceeds(0));
-        System.out.println("----");
-        System.out.println(game1.isEven());
-        System.out.println(game1.isOdd());
-        System.out.println("----");
-        System.out.println(game1.isMultipleOf(1));
-        System.out.println(game1.isMultipleOf(2));
-        System.out.println(game1.isMultipleOf(3));
-        System.out.println(game1.isMultipleOf(5));
-        System.out.println(game1.isMultipleOf(35));
-        System.out.println(game1.isMultipleOf(145));
-        System.out.println(game1.isMultipleOf(435));
-        System.out.println("----");
-        System.out.println(game1.isOnesDigit(5));
-        System.out.println(game1.isOnesDigit(3));
-        System.out.println(game1.isOnesDigit(4));
-        System.out.println(game1.isOnesDigit(0));
-        System.out.println(game1.isOnesDigit(35));
+        Scanner myScanner = new Scanner(System.in);
+        System.out.print("Enter a positive integer: ");
+        int num = myScanner.nextInt();
 
-
+        // write your code here to print the appropriate message(s)
+        // described below
+        if (num<=0){
+            System.out.println("That's not positive!");
+        } else {
+            if (num%2==1){
+                if (num%7==0){
+                    System.out.println("Divisible by 7!");
+                }
+                if (num%5==0){
+                    System.out.println("Divisible by 5!");
+                }
+                if ((num%5!=0)&&(num%7!=0)){
+                    System.out.println("Not divisible by 5 or 7");
+                }
+            } else {
+                if (num>1000){
+                    System.out.println("Big even number!");
+                } else if ((num > 100)&&(num<=1000)){
+                    System.out.println("Medium even number!");
+                } else {
+                    System.out.println("Small even number!");
+                }
+            }
+        }
 
     }
 }

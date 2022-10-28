@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="670f967f-b02b-4416-be90-0486b32feabe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArturiU3T1Lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BooleanGames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
+    <list default="true" id="670f967f-b02b-4416-be90-0486b32feabe" name="Changes" comment="10/27">
+      <change afterPath="$PROJECT_DIR$/src/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BillTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CatHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CatHouseRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GradeGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GradeGetterRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReturnError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +44,32 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/BT_3W2_28/IdeaProjects/ArturiU3T1Lab",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CatHouseRunner">
+    <configuration name="BillTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BillTester" />
+      <module name="ArturiU3T1Lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatHouseRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CatHouseRunner" />
+      <module name="ArturiU3T1Lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeGetterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GradeGetterRunner" />
+      <module name="ArturiU3T1Lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="ArturiU3T1Lab" />
@@ -56,7 +79,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CatHouseRunner" />
+        <item itemvalue="Application.BillTester" />
         <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.GradeGetterRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -69,6 +95,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666883618917</updated>
     </task>
+    <task id="LOCAL-00001" summary="10/27">
+      <created>1666885378486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666885378486</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,5 +115,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="10/27" />
+    <option name="LAST_COMMIT_MESSAGE" value="10/27" />
   </component>
 </project>
